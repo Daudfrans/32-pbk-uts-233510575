@@ -21,7 +21,7 @@ const removeTask = (task) => {
 }
 
 const toggleTask = (task) => {
-  task.completed = !task.completed
+  task.completed == !task.completed
 }
 
 const filteredTasks = computed(() => {
